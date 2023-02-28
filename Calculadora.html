@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./CSS/reset.css">
+	<link rel="stylesheet" href="./CSS/calc.css">
+	<title>Calculadora em JS</title>
+
+</head>
+
+<body>
+	<form name="calc_form" class="calc_form" action="" method="post">
+
+		<img src="./img/calc.png" alt="Calculadora">
+		<input id="n1" class="numero_forms" type="number" placeholder="Digite um número">
+		<input id="n2" class="numero_forms" type="number" placeholder="Digite um número">
+		<!--<input id="resultado" class="numero_forms" type="text" placeholder="Resultado" value="">-->
+		<span class="numero_forms">
+			<font color="#333">Resultado</font>
+		</span>
+
+
+		<div class="botoes_container">
+
+			<button type="button" onclick="somar()" class="botoes">Somar</button>
+			<button type="button" onclick="subtrair()" class="botoes">Diminuir</button>
+			<button type="button" onclick="dividir()" class="botoes">Dividir</button>
+			<button type="button" onclick="multiplicar()" class="botoes">Multiplicar</button>
+
+
+		</div>
+	</form>
+
+
+
+</body>
+<script src="JS/calc.js"></script>
+
+
+</html>
